@@ -91,7 +91,6 @@ th  { background: #f4f4f4; }
 	text-align: center;
 }
 @media only screen and (max-width:480px){
-    .company { margin: 0 -10px; }
     .company th,
     .company td{
     width: 100%;
