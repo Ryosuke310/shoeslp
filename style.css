@@ -46,7 +46,7 @@ dl{
     margin-bottom: 0rem!important;
 }
 .wi{
-    width: 50%;
+    width: 100%;
     margin: 0 auto;
 }
 .content{
@@ -129,6 +129,9 @@ th  { background: #f4f4f4; }
 
 /*タブレット以上*/
 @media screen and (min-width:960px){
+    .wi{
+    width:50%;
+    }
     .content{
         width: 50%;
     }
