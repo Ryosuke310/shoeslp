@@ -45,6 +45,10 @@ table {
 dl{
     margin-bottom: 0rem!important;
 }
+.wi{
+    width: 50%;
+    margin: 0 auto;
+}
 .content{
     width: 100%;
 }
@@ -99,6 +103,28 @@ th  { background: #f4f4f4; }
     text-align: center
     }
   .company tr:first-child th { border-top: 1px solid #ddd; }
+}
+
+.btn-square-shadow {
+    width: 180px;
+    text-align: center;
+    display: inline-block;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    background: #668ad8;
+    color: #FFF;
+    border-bottom: solid 4px #627295;
+    border-radius: 3px;
+    position: relative;
+    bottom: 130px;
+    left: 70%;
+}
+.btn-square-shadow:active {
+  /*ボタンを押したとき*/
+  -webkit-transform: translateY(4px);
+  transform: translateY(4px);/*下に動く*/
+  box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.2);/*影を小さく*/
+  border-bottom: none;
 }
 
 /*タブレット以上*/
