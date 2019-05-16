@@ -68,6 +68,7 @@ dl{
     background:#333333;
 } 
 .pub_form{
+    font-size:0.6rem;
     color: white;
 }
 .polisy{
@@ -125,18 +126,17 @@ th  { background: #f4f4f4; }
     }
   .company tr:first-child th { border-top: 1px solid #ddd; }
 }
-
+.button{
+  margin-top:-10px;
+}
 .btn-square-shadow {
-    width: 80%;
+    width: 40%;
     text-align: center;
     display: inline-block;
-    padding: 0.5em 1em;
     text-decoration: none;
     background: #FF0606;
     color: #FFF;
     border-bottom: solid 4px #C00000;
-    border-radius: 3px;
-    position: relative;
 }
 .btn-square-shadow:active {
   /*ボタンを押したとき*/
@@ -163,6 +163,16 @@ th  { background: #f4f4f4; }
     .form-group_l{
         margin:-3px auto;
         padding-bottom: 50px;
+    }
+    .btn-square-shadow {
+      width: 80%;
+      padding: 10px 10px;
+    }
+    .pub_form{
+      font-size: 1.2rem;
+    }
+    .button{
+      margin-top:0;
     }
 }
 
