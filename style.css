@@ -136,6 +136,7 @@ th  { background: #f4f4f4; }
     text-decoration: none;
     background: #FF0606;
     color: #FFF;
+    border-color: transparent;
     border-bottom: solid 4px #C00000;
 }
 .btn-square-shadow:active {
