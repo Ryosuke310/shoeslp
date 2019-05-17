@@ -210,7 +210,7 @@ button, input, optgroup, select, textarea {
     .button{
       margin-top:0;
     }
-    .formbutton{
+    input[type="text"] {
         height: 30px;
     }
 }
