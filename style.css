@@ -211,7 +211,7 @@ button, input, optgroup, select, textarea {
       margin-top:0;
     }
     input[type="text"] {
-        height: 30px;
+        height: 30px!important;
     }
 }
 
