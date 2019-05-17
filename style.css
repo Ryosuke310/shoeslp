@@ -103,9 +103,6 @@ th  { background: #f4f4f4; }
     height: 131px;
     background-color: #EEDB31;
 }
-/*----------------------------------------------------
-  .company
-----------------------------------------------------*/
 .company th  { width: 30%; text-align: left; }
 .company{
 	margin-bottom: 20px!important;
@@ -116,19 +113,6 @@ th  { background: #f4f4f4; }
 	font-size:20px;
 	text-align: center;
 }
-@media only screen and (max-width:480px){
-    .company th,
-    .company td{
-    width: 100%;
-    display: block;
-    border-top: none;
-    text-align: center
-    }
-  .company tr:first-child th { border-top: 1px solid #ddd; }
-}
-/*.button{*/
-/*  margin-top:20px;*/
-/*}*/
 .btn-square-shadow {
     width: 15%;
     text-align: center;
@@ -146,46 +130,11 @@ th  { background: #f4f4f4; }
   box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.2);/*影を小さく*/
   border-bottom: none;
 }
-
-/*タブレット以上*/
-@media screen and (min-width:960px){
-    .wi{
-    width:50%;
-    }
-    .polisy{
-        width: 50%;
-    }
-    .content{
-        width: 50%;
-    }
-    .form-group{
-        margin:-3px auto;
-    }
-    .form-group_l{
-        margin:-3px auto;
-        padding-bottom: 50px;
-    }
-    .btn-square-shadow {
-      width: 30%;
-      margin-top: 10px;
-    }
-    .pub_form{
-      font-size: 1.2rem;
-    }
-    .button{
-      margin-top:0;
-    }
-}
-
-
-
+/*ボタンアニメーション*/
 .btn-square-shadow {
   -webkit-animation: animation 1500ms linear infinite both;
   animation: animation 1500ms linear infinite both;
 }
-
-
-
 @-webkit-keyframes animation { 
   0% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
   5.61% { -webkit-transform: matrix3d(1.645, 0, 0, 0, 0, 1.645, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(1.645, 0, 0, 0, 0, 1.645, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
@@ -217,14 +166,55 @@ th  { background: #f4f4f4; }
   83.98% { -webkit-transform: matrix3d(2, 0, 0, 0, 0, 2, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(2, 0, 0, 0, 0, 2, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
   100% { -webkit-transform: matrix3d(2, 0, 0, 0, 0, 2, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(2, 0, 0, 0, 0, 2, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); } 
 }
-
-
 button, input, optgroup, select, textarea {
      margin: 0; 
      font-family: inherit; 
      font-size: 0.6rem!important; 
      line-height: none; 
 }
+@media only screen and (max-width:480px){
+    .company th,
+    .company td{
+    width: 100%;
+    display: block;
+    border-top: none;
+    text-align: center
+    }
+  .company tr:first-child th { border-top: 1px solid #ddd; }
+}
+/*タブレット以上*/
+@media screen and (min-width:960px){
+    .wi{
+    width:50%;
+    }
+    .polisy{
+        width: 50%;
+    }
+    .content{
+        width: 50%;
+    }
+    .form-group{
+        margin:-3px auto;
+    }
+    .form-group_l{
+        margin:-3px auto;
+        padding-bottom: 50px;
+    }
+    .btn-square-shadow {
+      width: 30%;
+      margin-top: 10px;
+    }
+    .pub_form{
+      font-size: 1.2rem;
+    }
+    .button{
+      margin-top:0;
+    }
+    .formbutton{
+        height: 30px;
+    }
+}
+
 
 
 
