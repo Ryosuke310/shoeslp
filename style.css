@@ -107,12 +107,9 @@ th  { background: #f4f4f4; }
 	font-size:20px;
 	text-align: center;
 }
-.btn-square-shadow:active {
-  /*ボタンを押したとき*/
-  -webkit-transform: translateY(4px);
-  transform: translateY(4px);/*下に動く*/
-  box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.2);/*影を小さく*/
-  border-bottom: none;
+.btn-square-shadow:hover {
+	cursor: pointer;
+	opacity:0.9;
 }
 .button{
     width:60%;
@@ -180,6 +177,32 @@ input[type="text"] {
         text-align: center;
     }
 }
+
+
+/* ボタンをバウンドさせる */
+.is-bounce {
+  animation: bounce 4s infinite;
+  -moz-animation: bounce 4s infinite;
+  -webkit-animation: bounce 4s infinite;
+  -webkit-animation-delay: 4s;
+  animation-delay: 4s;
+}
+@-webkit-keyframes bounce {
+  0%, 4%, 10%, 18%, 100% {-webkit-transform: translateY(0);}
+  5% {-webkit-transform: translateY(-6px);}
+  12% {-webkit-transform: translateY(-4px);}
+}
+@keyframes bounce {
+  20%, 24%, 30%, 34%, 100% {-webkit-transform: translateY(0);transform: translateY(0);}
+  25% {-webkit-transform: translateY(-6px);transform: translateY(-6px);}
+  32% {-webkit-transform: translateY(-4px);transform: translateY(-4px);}
+}
+/* アニメーションを遅延させる */
+.is-bounce + .is-bounce {
+  -webkit-animation-delay: .5s;
+  animation-delay: .5s;
+}
+
 
 
 
