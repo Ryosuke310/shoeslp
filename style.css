@@ -123,7 +123,7 @@ input[type="text"] {
     background-size: contain;
     background-color: #ffffff;
     line-height: 15px;
-    text-align: right;
+    text-align: center;
     width:65%;
     height: 25px;
 }
